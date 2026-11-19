@@ -1,0 +1,139 @@
+# PBR materials for rapeseed_vase.obj
+# The GLB is the physically based deliverable; MTL carries diffuse/alpha hints only.
+
+newmtl Bud_Green
+Kd 0.612000 0.573000 0.169000
+Ka 0.073440 0.068760 0.020280
+Ks 0.04 0.04 0.04
+Ns 40.4
+Ni 1.0
+d 1.000
+illum 2
+
+newmtl Bud_Tip
+Kd 0.816000 0.678000 0.129000
+Ka 0.097920 0.081360 0.015480
+Ks 0.04 0.04 0.04
+Ns 35.6
+Ni 1.0
+d 1.000
+illum 2
+
+newmtl Calyx_Green
+Kd 0.306000 0.443000 0.169000
+Ka 0.036720 0.053160 0.020280
+Ks 0.04 0.04 0.04
+Ns 45.2
+Ni 1.0
+d 1.000
+illum 2
+
+newmtl Stem_Mid
+Kd 0.306000 0.451000 0.176000
+Ka 0.036720 0.054120 0.021120
+Ks 0.04 0.04 0.04
+Ns 47.6
+Ni 1.0
+d 1.000
+illum 2
+
+newmtl Stem_Fresh
+Kd 0.388000 0.545000 0.224000
+Ka 0.046560 0.065400 0.026880
+Ks 0.04 0.04 0.04
+Ns 52.4
+Ni 1.0
+d 1.000
+illum 2
+
+newmtl Stem_Deep
+Kd 0.224000 0.337000 0.129000
+Ka 0.026880 0.040440 0.015480
+Ks 0.04 0.04 0.04
+Ns 42.8
+Ni 1.0
+d 1.000
+illum 2
+
+newmtl Petals_Sun
+Kd 0.956000 0.735000 0.035000
+Ka 0.114720 0.088200 0.004200
+Ks 0.04 0.04 0.04
+Ns 28.4
+Ni 1.0
+d 1.000
+illum 2
+
+newmtl Flower_Center
+Kd 0.780000 0.670000 0.200000
+Ka 0.093600 0.080400 0.024000
+Ks 0.04 0.04 0.04
+Ns 23.6
+Ni 1.0
+d 1.000
+illum 2
+
+newmtl Flower_Anther
+Kd 0.990000 0.830000 0.180000
+Ka 0.118800 0.099600 0.021600
+Ks 0.04 0.04 0.04
+Ns 38.0
+Ni 1.0
+d 1.000
+illum 2
+
+newmtl Petals_Golden
+Kd 0.925000 0.645000 0.016000
+Ka 0.111000 0.077400 0.001920
+Ks 0.04 0.04 0.04
+Ns 30.8
+Ni 1.0
+d 1.000
+illum 2
+
+newmtl Petals_Light
+Kd 0.973000 0.800000 0.110000
+Ka 0.116760 0.096000 0.013200
+Ks 0.04 0.04 0.04
+Ns 26.0
+Ni 1.0
+d 1.000
+illum 2
+
+newmtl Glass_Clear
+Kd 0.970000 0.993000 0.988000
+Ka 0.116400 0.119160 0.118560
+Ks 0.92 0.96 0.96
+Ns 900
+Ni 1.470000
+d 0.120
+illum 7
+
+newmtl Water_Volume
+Kd 0.861000 0.943000 0.918000
+Ka 0.103320 0.113160 0.110160
+Ks 0.92 0.96 0.96
+Ns 900
+Ni 1.333000
+d 0.360
+illum 7
+
+newmtl Water_Surface
+Kd 0.805000 0.883000 0.845000
+Ka 0.096600 0.105960 0.101400
+Ks 0.25 0.25 0.25
+Ns 400
+Ni 1.5
+d 0.260
+illum 2
+
+newmtl Water_Line
+Kd 0.700000 0.800000 0.755000
+Ka 0.084000 0.096000 0.090600
+Ks 0.25 0.25 0.25
+Ns 400
+Ni 1.5
+d 0.340
+illum 2
+
+# End MTL. For glass reflections, use rapeseed_vase.glb in a PBR viewer.

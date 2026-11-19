@@ -1,0 +1,295 @@
+{
+  "asset": "Rapeseed bouquet in a straight glass vase",
+  "version": "1.0",
+  "scope": "high-detail PBR 3D model; presentation background not included",
+  "units": "metres",
+  "coordinate_system": {
+    "up": "Y",
+    "origin": "centre of vase base on the floor plane",
+    "forward": "toward the viewer at +Z (flowers lean and face outward)"
+  },
+  "dimensions_m": {
+    "width_x": 0.2514,
+    "height_y": 0.43893,
+    "depth_z": 0.14743,
+    "vase_height": 0.176,
+    "vase_outer_diameter": 0.072,
+    "water_level": 0.1082
+  },
+  "counts": {
+    "high": {
+      "objects": 289,
+      "triangles": 432536,
+      "vertices": 220308,
+      "materials": 15,
+      "objects_watertight_parts": 631
+    },
+    "wire": {
+      "objects": 289,
+      "triangles": 107608,
+      "vertices": 57844,
+      "materials": 15,
+      "objects_watertight_parts": 631
+    }
+  },
+  "structure": {
+    "flowers": 102,
+    "buds": 18,
+    "stems": 165,
+    "leaves": 0,
+    "vessel_and_water": 4,
+    "naming": "Flower_<cluster>_<branch>_<index>, Stem_<cluster>_pedicel_..., Bud_..., Leaf_...",
+    "independence": "Every flower head, bud, stem/pedicel and leaf is a separate glTF node with its own mesh and pivot."
+  },
+  "materials": {
+    "Petals_Golden": {
+      "base_srgb": [
+        0.925,
+        0.645,
+        0.016
+      ],
+      "roughness": 0.76,
+      "metallic": 0.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "thickness_m": 0.0,
+      "clearcoat": 0.0
+    },
+    "Petals_Sun": {
+      "base_srgb": [
+        0.956,
+        0.735,
+        0.035
+      ],
+      "roughness": 0.78,
+      "metallic": 0.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "thickness_m": 0.0,
+      "clearcoat": 0.0
+    },
+    "Petals_Deep": {
+      "base_srgb": [
+        0.855,
+        0.535,
+        0.01
+      ],
+      "roughness": 0.74,
+      "metallic": 0.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "thickness_m": 0.0,
+      "clearcoat": 0.0
+    },
+    "Petals_Light": {
+      "base_srgb": [
+        0.973,
+        0.8,
+        0.11
+      ],
+      "roughness": 0.8,
+      "metallic": 0.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "thickness_m": 0.0,
+      "clearcoat": 0.0
+    },
+    "Flower_Center": {
+      "base_srgb": [
+        0.78,
+        0.67,
+        0.2
+      ],
+      "roughness": 0.82,
+      "metallic": 0.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "thickness_m": 0.0,
+      "clearcoat": 0.0
+    },
+    "Flower_Anther": {
+      "base_srgb": [
+        0.99,
+        0.83,
+        0.18
+      ],
+      "roughness": 0.7,
+      "metallic": 0.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "thickness_m": 0.0,
+      "clearcoat": 0.0
+    },
+    "Stem_Fresh": {
+      "base_srgb": [
+        0.388,
+        0.545,
+        0.224
+      ],
+      "roughness": 0.58,
+      "metallic": 0.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "thickness_m": 0.0,
+      "clearcoat": 0.0
+    },
+    "Stem_Mid": {
+      "base_srgb": [
+        0.306,
+        0.451,
+        0.176
+      ],
+      "roughness": 0.62,
+      "metallic": 0.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "thickness_m": 0.0,
+      "clearcoat": 0.0
+    },
+    "Stem_Deep": {
+      "base_srgb": [
+        0.224,
+        0.337,
+        0.129
+      ],
+      "roughness": 0.66,
+      "metallic": 0.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "thickness_m": 0.0,
+      "clearcoat": 0.0
+    },
+    "Calyx_Green": {
+      "base_srgb": [
+        0.306,
+        0.443,
+        0.169
+      ],
+      "roughness": 0.64,
+      "metallic": 0.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "thickness_m": 0.0,
+      "clearcoat": 0.0
+    },
+    "Leaf_Green": {
+      "base_srgb": [
+        0.275,
+        0.416,
+        0.169
+      ],
+      "roughness": 0.55,
+      "metallic": 0.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "thickness_m": 0.0,
+      "clearcoat": 0.0
+    },
+    "Leaf_Vein": {
+      "base_srgb": [
+        0.416,
+        0.565,
+        0.259
+      ],
+      "roughness": 0.6,
+      "metallic": 0.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "thickness_m": 0.0,
+      "clearcoat": 0.0
+    },
+    "Bud_Green": {
+      "base_srgb": [
+        0.612,
+        0.573,
+        0.169
+      ],
+      "roughness": 0.68,
+      "metallic": 0.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "thickness_m": 0.0,
+      "clearcoat": 0.0
+    },
+    "Bud_Tip": {
+      "base_srgb": [
+        0.816,
+        0.678,
+        0.129
+      ],
+      "roughness": 0.72,
+      "metallic": 0.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "thickness_m": 0.0,
+      "clearcoat": 0.0
+    },
+    "Glass_Clear": {
+      "base_srgb": [
+        0.97,
+        0.993,
+        0.988
+      ],
+      "roughness": 0.012,
+      "metallic": 0.0,
+      "transmission": 0.995,
+      "ior": 1.47,
+      "thickness_m": 0.0028,
+      "clearcoat": 0.08
+    },
+    "Water_Volume": {
+      "base_srgb": [
+        0.861,
+        0.943,
+        0.918
+      ],
+      "roughness": 0.022,
+      "metallic": 0.0,
+      "transmission": 0.975,
+      "ior": 1.333,
+      "thickness_m": 0.045,
+      "clearcoat": 0.0
+    },
+    "Water_Line": {
+      "base_srgb": [
+        0.7,
+        0.8,
+        0.755
+      ],
+      "roughness": 0.2,
+      "metallic": 0.0,
+      "transmission": 0.0,
+      "ior": 1.333,
+      "thickness_m": 0.0,
+      "clearcoat": 0.35
+    },
+    "Water_Surface": {
+      "base_srgb": [
+        0.805,
+        0.883,
+        0.845
+      ],
+      "roughness": 0.105,
+      "metallic": 0.0,
+      "transmission": 0.0,
+      "ior": 1.333,
+      "thickness_m": 0.0,
+      "clearcoat": 0.6
+    }
+  },
+  "glb_extensions": [
+    "KHR_materials_transmission",
+    "KHR_materials_ior",
+    "KHR_materials_volume",
+    "KHR_materials_clearcoat"
+  ],
+  "files": {
+    "rapeseed_vase_high.glb": 12848040,
+    "rapeseed_vase_high.obj": 35914882,
+    "rapeseed_vase_high.mtl": 2134,
+    "rapeseed_vase_wireframe.glb": 3746516,
+    "rapeseed_vase_wireframe.obj": 8911922,
+    "rapeseed_vase_wireframe.mtl": 2134
+  },
+  "reference": "source/reference.jpg (pose and silhouette reference only; background excluded)"
+}
